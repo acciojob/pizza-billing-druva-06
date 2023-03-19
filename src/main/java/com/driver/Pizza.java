@@ -44,10 +44,8 @@ public class Pizza {
 
     public void addExtraToppings(){
         // your code goes here
-        if(extraCheese!=0) {
-            if (isVeg) extraToppings = 70;
-            else extraToppings = 120;
-        }
+        if (isVeg) extraToppings = 70;
+        else extraToppings = 120;
     }
 
     public void addTakeaway(){
