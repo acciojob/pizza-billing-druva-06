@@ -34,7 +34,7 @@ public class Pizza {
     }
 
     public int getPrice(){
-        return this.price;
+        return price+extraCheese+extraToppings+takeAway;
     }
 
     public void addExtraCheese(){
